@@ -1,0 +1,11 @@
+1. Approach 1 :  using degree of an vertex (Intuitive approach )
+------------------------------------------------------------------------------------------------------
+1. Maintain the indegree and outdegree of vertices
+2. As judge does not trust anyone and everybody trust judge we, will increment trust point (A->B)  to B and reduce of A.
+3. At the end whoever has trust point N-1 will be the Judge
+
+TC : O(n) n = number of vertex.
+SC : O(n) n number of vertex.
+-----------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
+	 
