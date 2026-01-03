@@ -21,6 +21,7 @@ This repository contains my solutions to LeetCode problems organized by **DSA co
 - Binary Search
 - Trees
 - Graphs
+- Disjoint Union
 - Dynamic Programming
 - Greedy
 - Bit Manipulation

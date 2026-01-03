@@ -1,0 +1,31 @@
+1. Approach 1 :  using DFS (Intuitive approach )
+------------------------------------------------------------------------------------------------------
+1. As we have to find path exists or not lets go with BFS
+2. Create a adjacency list/ matrix to keep track of graph edges 
+	Keep in mind its a bidirectional graph we have to maintain adjacency accordingly
+3. Traverse BFS from source:
+4. maintain the visited set to not visit again the visited nodes
+5. Add source to queue 
+6. Remove node from queue if we found destination then return true;
+7. If node is not in visited array 
+	explore the child and add those are node visited in visited set
+end if we exhausted the search return false;   
+
+
+TC : O(E) (creation of adjacency list) + O(V+E) = V+E
+SC = (V+E) adjacency list + Max(E) (queue at a time ) = V+E
+-----------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
+2. Approach 2 :  using Disjoint union (Disjoint union)// Here we have to find the relation between 2 vertex, It can be hint to go for Disjoint union.
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Make union of all the edges that are reachable.
+2. find the root of both start vertex and end vertex.
+3. if the root are different then they are not reachable.
+
+Time Complexity:
+O(m · α(n)), where m is the number of edges and α(n) is the inverse Ackermann function.
+Since α(n) grows extremely slowly, this is effectively linear time.
+
+Space Complexity:
+O(n) due to the parent map storing one entry per node.		 
