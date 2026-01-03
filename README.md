@@ -27,7 +27,9 @@ This repository contains my solutions to LeetCode problems organized by **DSA co
 
 ## ⭐ How to Use
 - Navigate to a concept folder
-- Each file contains:
-  - Problem statement link
-  - Approach explanation
-  - Time & Space complexity
+- Select the level of problem (Easy/Medium/Hard)
+- Select the problem based on number.
+- Each file inside problem folder contains :
+  - Problem statement  and leet code link.
+  - Approach explanation ( Time & Space complexity).
+  - Solution for the problem.
