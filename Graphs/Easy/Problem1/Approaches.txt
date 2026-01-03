@@ -1,0 +1,15 @@
+As we have to find path exists or not lets go with BFS
+Create a adjacency list/ matrix to keep track of graph edges 
+	Keep in mind its a bidirectional graph we have to maintain adjacency accordingly
+Traverse BFS from source:
+maintain the visited set to not visit again the visited nodes
+Add source to queue 
+Remove node from queue if we found destination then return true;
+If node is not in visited array 
+	explore the child and add those are node visited in visited set
+end if we exhausted the search return false;   
+
+
+TC : O(E) (creation of adjacency list) + O(V+E) = V+E
+SC = (V+E) adjacency list + Max(E) (queue at a time ) = V+E
+		 
