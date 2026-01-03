@@ -22,4 +22,10 @@ SC = (V+E) adjacency list + Max(E) (queue at a time ) = V+E
 1. Make union of all the edges that are reachable.
 2. find the root of both start vertex and end vertex.
 3. if the root are different then they are not reachable.
-		 
+
+Time Complexity:
+O(m · α(n)), where m is the number of edges and α(n) is the inverse Ackermann function.
+Since α(n) grows extremely slowly, this is effectively linear time.
+
+Space Complexity:
+O(n) due to the parent map storing one entry per node.		 
