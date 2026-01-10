@@ -1,0 +1,13 @@
+1. Approach 1 :  using BFS (Intuitive approach )
+------------------------------------------------------------------------------------------------------
+1. Travel BFS and create a map that holds the value of newly created node against the old node
+	Key : old Node
+	value : new Node;
+
+
+2. Second BFS travel while linking link new node from the map 
+TC : O(V+E) n = number of vertex.
+SC : O(V) V= number of vertex.
+-----------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
+	 
