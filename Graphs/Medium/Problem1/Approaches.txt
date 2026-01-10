@@ -1,4 +1,8 @@
 1. Approach 1 :  using BFS (Intuitive approach )
+Here we have to map the link to child if we go DFS and we found visited node the there is no clue how can we have to handle. So we go by BFS and whatever value against old node we simply add it.
+
+As we are creating deep copy we have to maintain the reference of newly created node.
+that's why we create map to keep tab.
 ------------------------------------------------------------------------------------------------------
 1. Travel BFS and create a map that holds the value of newly created node against the old node
 	Key : old Node
