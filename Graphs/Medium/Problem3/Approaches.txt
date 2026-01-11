@@ -1,0 +1,13 @@
+1. Approach 1 : DFS cycle detection and topological sort
+------------------------------------------------------------------------------------------------------
+1. Create a list of list based on the input
+2. treat unvisited  = 0,visiting  = 1,visited  = 2,
+3. while exploring if we encounter visited node no cycle
+		   we encounter visiting node no cycle is present
+		   we encounter unvisited node have to explore
+4. while exploring mark as 1 that is visiting and after all children explored mark as 2 visited
+5. and add node to list of order.
+TC : O(V+E) = Exploring 
+SC
+-----------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
