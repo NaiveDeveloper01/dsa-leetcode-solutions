@@ -1,0 +1,12 @@
+1. Approach 1 : (Need to find cycle, cause we have to check if course can be completed or not. If we have to figure out in which manner courses can be completed then we could have gone for topological sort) using BFS (Kahn's algorithm)
+------------------------------------------------------------------------------------------------------
+1. creating the adjacency list and updating the in degrees. A-> B then increment the degree of 'B'.
+2. Add nodes with 0 degree in queue.
+3. while queue is not empty till then remove from queue and decrement degree neighbours of removed element.
+4. After queue is empty check if any node have greater than 0 degree. if yes return false else return true.
+
+TC : O(V+E)+ O(V) = Creating adjacency list + traversing for degree check.
+SC : O(V+E) + O(V) = number of vertex and edges for adjacency list + queue to maintain the vertices with 0 degree.
+-----------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
+	 
